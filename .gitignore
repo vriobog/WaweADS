@@ -1,0 +1,40 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Session and local data
+*.session
+sessions/
+data/
+!data/config.json
+licenses.db
+lic_keys.txt
+
+# Logs
+crash.log
+crash_output.txt
+out_log.txt
+app_test.log
+*.log
+
+# Project dumps
+project.md
+generate_project_md.bat
+generate_project_md.py
+
+# Env
+venv/
+env/
+.env
+
+# Build outputs
+dist/
+build/
+*.exe
+*.build/
+*.onefile-build/
+
+# OS files
+.DS_Store
+Thumbs.db
